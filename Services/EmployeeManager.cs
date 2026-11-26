@@ -19,7 +19,7 @@ namespace Payot_Week08_Work09.Services
 
         public void AddEmployee(Employee e)
         {
-            _repo.Save(e);
+            _repo.Save(e); //_repo -> interface variable
         }
 
         public Employee getEmployeeByID(int id)

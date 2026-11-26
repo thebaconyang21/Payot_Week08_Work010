@@ -30,8 +30,6 @@ namespace Payot_Week08_Work09.DBContext
                 "New Employee",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
-
-
             );
              
         }

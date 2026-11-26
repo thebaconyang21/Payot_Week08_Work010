@@ -18,7 +18,7 @@ namespace Payot_Week08_Work09
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            EmployeeManager empMgr = new EmployeeManager(MySQLContext);
+            EmployeeManager empMgr = new EmployeeManager(MySQLContext); 
 
             RegularEmployee emp1 = new RegularEmployee()
             {
